@@ -1,0 +1,27 @@
+body
+{
+color: black;
+background-color: blueviolet;
+
+}
+
+h1{
+ color: blue;
+ background-color: violet;
+ text-align: center;
+}
+h2{
+    color: blue;
+    background-color: violet;
+    text-align: center;
+}
+
+p{
+    background-color: violet;
+    color: brown;
+    text-align: center;
+}
+li{
+
+    background-color: violet;
+}
