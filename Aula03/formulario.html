@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <form name="CadastroForm" 
+          action="/processarDados" 
+          method="post" 
+          autocomplete="on"
+          novalidate>
+ 
+         <!-- Rótulo para o campo de nome-->
+        <label for="nome">Nome: </label>
+        <input type="text" name="Nome" id="nome"/> <!-- Campo de texto para inserção de dados-->
+         <br/>
+        <label type="Email">Email: </label>
+        <input type required="Email" name="Email" id="" placeholder="Exemplo@dominio.com"/>
+         <br/>
+        <label for="Telefone">Telefone: </label>
+        <input type="tel" name="Telefone" id="" placeholder="(xx)xxxxx-xxxxx"/>
+        <!--Required torna o campo obrigatório-->
+        <br />
+        <!--Type password oculta os caracteres digitados-->
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id=""/>
+        
+        <br />
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" id=""/>
+        <br/>
+        <label for="Nascimento">Nascimento:</label>
+        <input type="date" name="Nascimento" id=""/>
+        <br/>
+        <label for="Nascimento">Hora: </label>
+        <input type="time" name="Horario" id="">
+        <br/>
+        <!--Type color usado para seleção de cores-->
+        <label for="color">Cor: </label>
+        <input type="color" name="color" id="color"/>
+        <br/>
+        <label for="range">Range</label>
+        <input type="range" min="0" max="100" value="25" name="range" id="range"/>
+        <br/>
+        <!--Type file usado para seleção de arquivos-->
+        <input type="file" aceept="image/*" name="file" id="file">
+        <!--usando para limpar formulario-->
+        <br/>
+        <input type="reset" value="Limpar">
+        <br/>
+        <label for="checkbox">Aceitos os termos</label>
+        <input type="checkbox" name="termos" id="">
+        <br/>
+        <input type="radio" name="genero" id="masculino"/>
+        <label for="masculino">masculino</label>
+        <br/>
+        <input type="radio" name="genero" id="feminino"/>
+        <label for="feminino">feminino</label>
+        <br/>
+        <input type="button" value="Botão" onclick="alert('Botão clicado!')" />
+        <br/>
+        <label for="mensagem">mensagem</label>
+        <textarea name="mensagem" value="Enviar"> </textarea>
+        <br/> <br/>
+
+        <label for="cidade">Cidade</label>
+        <select name="cidade" id="cidade">
+            <option value="saopaulo">São Paulo</option>
+            <option value="rio">Rio de Janeiro</option>
+            <option value="salvador">Salvador</option>
+            <option value="brasilia">Brasília</option>
+            <option value="belohorizonte">Belo Horizonte</option>
+        </select>    
+        <br/> <br/>
+        <label for="línguagens">Línguagens de progrmação: </label>
+        <select name="línguagens"  multiple size="6" id="Línguagens">
+            <option value="C#">C#</option>
+            <option value="python">python</option>
+            <option value="java">Java</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="ruby">Ruby</option>
+            <option value="php">PHP</option>
+        </select>
+        <br/> <br/>
+
+        <input list="navegadores" name="navador" placeholder="Digite um navegador"/>
+        <datalist id="navegadores">
+           <option value="Google chrome"></option>
+           <option value="Mozilla Firefox"></option>
+           <option value="Microsoft Edge"></option>
+           <option value="Safari"></option>
+           <option value="Opera"></option>
+        </datalist>
+        <br/> <br/>
+
+        <fieldset>
+            <legend> Dados do Cliente</legend>
+            <label for="Nome">Nome</label>
+            <input type="Text" name="NomeCliente"/>
+            <br/>
+            <label for="Email">Email</label>
+            <input type="Text" name="NomeCliente"/>
+        </fieldset>
+
+        
+        <br/> <br/>
+        <input type="submit" value="Enviar"/>
+    </form>
+</body>
+</html>
