@@ -1,0 +1,88 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+         /*CSS reset - utilizado para resetar margens e paddings padroes dos navegadores*/
+    }
+   
+    body
+    {
+        background-color: #273554;
+        padding: 80px 50px 20px 50px;
+            /* top, right, bottom, left*/
+    }
+    h1,h2,h3
+    {
+        color:#273554
+        /* Agruár estilos de elementos */
+
+    }
+    .cabecalho /* ultilizando class*/
+    {}
+    
+    #cabecalho /*ultilizando id*/
+    {
+    
+    }
+    .Titulo-principal
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        color: white;
+        font-size: 40px;
+        line-height: 1;
+        margin-bottom: 10px;
+    }
+
+    
+    .texto-descricao
+    {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    }
+    .obs
+    {
+        
+    }
+    footer p 
+    {
+        color: chartreuse;
+        margin-top: 20px 0 0 50px;
+    }
+    .escoder
+    {
+        display: none;
+    }
+    .foto-perfil
+    {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        border: 5px solid #ffffff;
+    }
+
+    a
+    {
+        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    a:hover
+    {
+        color: black;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 900;
+    }
+    h2
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #ffffff;
+        margin: 20px 0 50px 0;
+    }
+
+    li
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #b0b2b6;
+    }
