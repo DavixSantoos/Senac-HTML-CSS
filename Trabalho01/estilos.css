@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #4c8daf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+header>img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid cadetblue;
+    
+    
+}
+.card{
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    width: 500px;
+    padding: 40px 20px;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0 0 80px #000000 ;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.Nome{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+}
+.Subtitulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(7, 7, 250, 0.733);
+    text-align: center;
+    
+}
+.Tags{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+.habilidades{ 
+    display: flex;
+    gap: 10px;
+}
+.habilidades li{
+    list-style:none;
+    background-color: #ddd;
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: 2px solid rgb(161, 161, 167);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.Texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 20px;
+    
+}
+.EntreContato{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    padding: 8px 15px;
+    border: 2px solid rgb(161, 161, 167);
+    background-color: #1b80b6d3;
+    color: white;
+    gap: 10px;
+}
