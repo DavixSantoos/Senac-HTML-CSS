@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #718096;
+
+}
+
+.logo{
+  
+   width: 150px;
+      
+}
+.menu{
+    width: 20px;
+    background-color: white;
+}
+
+header{
+    padding: 20px 20px;
+    display: flex;
+    background-color: #0A1931;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.hero{
+     padding: 0px 20px;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnCadastro {
+    display: flex;
+    justify-content: end;
+}
+
+.cadastrar{
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px ;
+    background-color:#E87030 ; 
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+hr{
+    opacity: 0.2;
+}
+.textoapresentacao{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.textop{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btnshero{
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px ;
+    width: 100%;
+    background-color:#E87030 ; 
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+   
+}   
+.bntTransparente{
+    background-color: transparent;
+    border: 2px solid white;
+}
+.imagemoff{
+    width: 390px;
+    padding: 15px 0px;
+}
+.telas{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.quadros{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgba(100, 90, 90, 0.425);
+    width: 90%;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.imgExpert{
+    width: 50px;
+    background-color: white;
+    
+}
