@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Ultilização do console.log();
+        var x ="Valor da variável";
+
+        console.log('Ola,david');
+        console.log(200);
+        console.log(50+40);
+        console.log(x);
+        console.log('ola',x);
+      
+        //Variáveis e Tipos de Dados em JavaScript
+        let idade = 18;
+        const nome = 'David';
+
+        let texto = "Isso é um novo texto";
+        let numeroInteiro = 42;
+        let numeroDecimal = 3.14;
+        let estaChovendo = true;// Booleano true/false
+        
+
+        console.log(typeof numeroDecimal)
+        console.log(nome,idade);
+
+        console.log("Nome:" + nome,idade)
+        console.log(`O meu nome é ${nome}. E minha idade é ${idade}`);
+
+        function saudacao(){
+            console.log("Ola, Mundo");
+            console.log("Hoje é dia 23");
+            console.log("Ontem foi dia 22");
+        }
+
+        function saudacao2(nome, dia){ //Função com parametros
+            console.log("Ola,"+ nome);
+            console.log("Hoje é dia " + dia);
+            dia--;
+            if (dia == 0){
+                dia = 31;
+            }
+            console.log("Ontem foi dia " + dia);
+        }
+
+        saudacao2("David",1);
+
+        function soma(a,b){// função com returno
+            return  a + b;
+        }
+        console.log(soma(10,8));
+
+        let nota = 5;
+        let media = 7;
+        
+        
+
+        if (nota <=5){
+            console.log("Aluno reprovado")
+        } else if(nota >=7 ){
+            console.log("Aluno aprovado")
+        }
+    
+    </script>
+</body>
+</html>
